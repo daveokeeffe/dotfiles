@@ -40,7 +40,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 map Y y$
-nnoremap <C-L> :nohl<CR><C-L>
+nnoremap <C-n> :nohl<CR>
 set background=light
 colorscheme solarized
 set cursorline
