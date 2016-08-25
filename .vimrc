@@ -13,11 +13,14 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'tpope/vim-rails'
 Plugin 'godlygeek/tabular'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'danro/rename.vim'
+Plugin 'w0ng/vim-hybrid'
+Plugin 'tomasr/molokai'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
-set guifont=Meslo\ LG\ M\ for\ Powerline\:h14
+set guifont=Roboto\ Mono\ for\ Powerline:h12
 set nowrap
 set noswapfile
 set hidden
@@ -41,10 +44,11 @@ set softtabstop=2
 set expandtab
 map Y y$
 nnoremap <C-n> :nohl<CR>
-set background=light
-colorscheme solarized
+set background=dark
+let g:hybrid_reduced_contrast = 1
+"colorscheme solarized
+colorscheme hybrid
 set cursorline
-set cursorcolumn
 set relativenumber
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
