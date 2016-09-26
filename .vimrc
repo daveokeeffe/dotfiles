@@ -20,7 +20,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
-set guifont=Roboto\ Mono\ for\ Powerline:h12
+set guifont=Roboto\ Mono\ for\ Powerline:h14
 set nowrap
 set noswapfile
 set hidden
@@ -44,10 +44,10 @@ set softtabstop=2
 set expandtab
 map Y y$
 nnoremap <C-n> :nohl<CR>
-set background=dark
+set background=light
 let g:hybrid_reduced_contrast = 1
-"colorscheme solarized
-colorscheme hybrid
+colorscheme solarized
+"colorscheme hybrid
 set cursorline
 set relativenumber
 let g:airline_powerline_fonts = 1
