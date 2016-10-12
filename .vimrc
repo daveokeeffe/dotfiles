@@ -1,3 +1,4 @@
+set encoding=utf-8
 set nocompatible
 filetype off                  " required
 
@@ -6,21 +7,32 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-rails'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdcommenter'
-Plugin 'tpope/vim-rails'
+Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
-Plugin 'altercation/vim-colors-solarized'
 Plugin 'danro/rename.vim'
 Plugin 'w0ng/vim-hybrid'
-Plugin 'tomasr/molokai'
+Plugin 'nathanaelkane/vim-indent-guides'
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
+Plugin 'chriskempson/base16-vim'
+Plugin 'xolox/vim-notes'
+Plugin 'xolox/vim-misc'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
-set guifont=Roboto\ Mono\ for\ Powerline:h14
+set background=dark
+let base16colorspace=256        " Access colors present in 256 colorspace
+colorscheme base16-materia
+"colorscheme base16-railscasts
+
+set guifont=Inconsolata\ for\ Powerline:h14
 set nowrap
 set noswapfile
 set hidden
@@ -37,18 +49,13 @@ set laststatus=2
 set confirm
 set visualbell
 set t_vb=
+set cursorline
 set cmdheight=1
 set number
 set shiftwidth=2
 set softtabstop=2
 set expandtab
-map Y y$
 nnoremap <C-n> :nohl<CR>
-set background=light
-let g:hybrid_reduced_contrast = 1
-colorscheme solarized
-"colorscheme hybrid
-set cursorline
 set relativenumber
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -67,3 +74,21 @@ set guioptions-=l
 set guioptions-=r
 set guioptions-=L
 set guioptions-=R
+set noballooneval "remove hover from vim-ruby
+
+"syntastic begin
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+"sytastic end
+
+" highlight trailing spaces in annoying red
+highlight ExtraWhitespace ctermbg=1 guibg=red
+match ExtraWhitespace /\s\+$/
+
+"Note taking in Vim
+let g:notes_directories = ['~/notes/']
