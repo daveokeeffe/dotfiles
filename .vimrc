@@ -56,6 +56,7 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 nnoremap <C-n> :nohl<CR>
+nnoremap <C-g> :GitGutterLineHighlightsToggle<CR>
 set relativenumber
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 1
