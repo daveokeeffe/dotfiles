@@ -1,5 +1,5 @@
 ### Installation instructions
-
+![Meshpi MacVim Screenshot](/assets/images/meshpi_screenshot.png)
 1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 2. `git clone https://github.com/powerline/fonts.git` 
 3. Install MacVim via homebrew or otherwise
