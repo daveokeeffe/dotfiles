@@ -1,6 +1,6 @@
 ### Screenshot
 ![Meshpi MacVim Screenshot]
-(https://github.com/meshpi/dotfiles/blob/master/assets/images/meshpi_macvim.png)
+(https://github.com/meshpi/dotfiles/blob/master/assets/images/materia.png)
 
 ### Installation instructions
 1. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
