@@ -17,8 +17,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'danro/rename.vim'
 Plugin 'w0ng/vim-hybrid'
 Plugin 'nathanaelkane/vim-indent-guides'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
 Plugin 'chriskempson/base16-vim'
 Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
@@ -27,14 +27,13 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 
 syntax enable
-set background=dark
+"set background=dark
 let base16colorspace=256        " Access colors present in 256 colorspace
-"colorscheme base16-solar-flare
-"colorscheme base16-oceanicnext
-colorscheme base16-materia
-"colorscheme base16-railscasts
+"colorscheme base16-materia
+colorscheme base16-github
 autocmd BufWritePre *.py :%s/\s\+$//e
-set guifont=Inconsolata\ for\ Powerline:h12
+set guifont=Inconsolata\ for\ Powerline:h14
+set linespace=3
 set nowrap
 set colorcolumn=80
 set noswapfile
