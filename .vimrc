@@ -75,6 +75,7 @@ noremap <C-j> <C-w>j
 noremap <C-k> <C-w>k
 noremap <C-l> <C-w>l
 set splitright
+set splitbelow
 set guioptions-=l
 set guioptions-=r
 set guioptions-=L
