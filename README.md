@@ -9,6 +9,7 @@
 4. Install MacVim via homebrew or otherwise
 5. `cp dotfiles/.vimrc ~/`
 5. `cp dotfiles/.gvimrc ~/`
-6. `mvim`
-7. `:PluginInstall`
-8. Then manually run /fonts/.install.sh to install the powerline fonts to allow Airline symbols to display correctly.
+6. `mkdir ~/.vim/undo ~/.vim/backup ~/.vim/swap`
+7. `mvim`
+8. `:PluginInstall`
+9. Then manually run /fonts/.install.sh to install the powerline fonts to allow Airline symbols to display correctly.

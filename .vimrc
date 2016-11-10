@@ -28,6 +28,10 @@ Plugin 'wesq3/vim-windowswap'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+set undodir=~/.vim/undo//
+set backupdir=~/.vim/backup//
+set directory=~/.vim/swap//
+
 syntax enable
 "set background=dark
 let base16colorspace=256        " Access colors present in 256 colorspace
