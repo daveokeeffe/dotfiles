@@ -112,3 +112,6 @@ augroup END
 nnoremap / /\v
 vnoremap / /\v
 
+" make use of the plugins/matchit.vim plugin
+map <tab> %
+
