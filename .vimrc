@@ -24,6 +24,7 @@ Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'matchit.zip'
+Plugin 'wesq3/vim-windowswap'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
