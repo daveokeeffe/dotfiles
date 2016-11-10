@@ -23,6 +23,7 @@ Plugin 'chriskempson/base16-vim'
 Plugin 'xolox/vim-notes'
 Plugin 'xolox/vim-misc'
 Plugin 'airblade/vim-gitgutter'
+Plugin 'matchit.zip'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -30,11 +31,9 @@ syntax enable
 "set background=dark
 let base16colorspace=256        " Access colors present in 256 colorspace
 colorscheme base16-materia
-autocmd BufWritePre *.py :%s/\s\+$//e
 set guifont=Inconsolata\ for\ Powerline:h14
 set linespace=3
 set nowrap
-set colorcolumn=80
 set noswapfile
 set hidden
 set wildmenu
