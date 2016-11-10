@@ -115,3 +115,6 @@ vnoremap / /\v
 " make use of the plugins/matchit.vim plugin
 map <tab> %
 
+" copy file path to system buffer
+map <leader>cf <Esc>:!echo -n % \| pbcopy <CR><ESC>
+
