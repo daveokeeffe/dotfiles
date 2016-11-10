@@ -30,7 +30,6 @@ filetype plugin indent on    " required
 syntax enable
 "set background=dark
 let base16colorspace=256        " Access colors present in 256 colorspace
-colorscheme base16-materia
 set guifont=Inconsolata\ for\ Powerline:h14
 set linespace=3
 set nowrap
@@ -75,7 +74,6 @@ set guioptions-=l
 set guioptions-=r
 set guioptions-=L
 set guioptions-=R
-set noballooneval "remove hover from vim-ruby
 
 "syntastic begin
 set statusline+=%#warningmsg#
