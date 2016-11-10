@@ -118,3 +118,6 @@ map <tab> %
 " copy file path to system buffer
 map <leader>cf <Esc>:!echo -n % \| pbcopy <CR><ESC>
 
+map <F3> :cnext <return>
+map <S-F3> :cprev <return>
+
