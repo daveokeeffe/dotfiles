@@ -121,3 +121,8 @@ map <leader>cf <Esc>:!echo -n % \| pbcopy <CR><ESC>
 map <F3> :cnext <return>
 map <S-F3> :cprev <return>
 
+" Don't move on *
+" I'd use a function for this but Vim clobbers the last search when you're in
+" a function so fuck it, practicality beats purity.
+nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(stay_star_view)<cr>
+
