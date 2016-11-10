@@ -108,3 +108,7 @@ augroup line_return
         \ endif
 augroup END
 
+" Use sane regexes.
+nnoremap / /\v
+vnoremap / /\v
+
