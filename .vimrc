@@ -26,6 +26,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'matchit.zip'
 Plugin 'wesq3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
+Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -126,4 +127,7 @@ map <S-F3> :cprev <return>
 " I'd use a function for this but Vim clobbers the last search when you're in
 " a function so fuck it, practicality beats purity.
 nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(stay_star_view)<cr>
+
+" make use of the PrettyXML plugin
+map <leader>xt <Esc>:PrettyXML<CR>
 
