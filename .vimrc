@@ -94,6 +94,9 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 "sytastic end
 
+" let NERDTree show dotfiles
+let NERDTreeShowHidden=1
+
 " highlight trailing spaces in annoying red
 highlight ExtraWhitespace ctermbg=1 guibg=red
 match ExtraWhitespace /\s\+$/
