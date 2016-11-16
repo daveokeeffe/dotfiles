@@ -27,6 +27,7 @@ Plugin 'matchit.zip'
 Plugin 'wesq3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
+Plugin 'terryma/vim-multiple-cursors'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
