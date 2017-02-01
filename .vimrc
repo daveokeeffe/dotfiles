@@ -149,6 +149,12 @@ call togglebg#map("")
 set showtabline=2
 set guioptions-=e
 
+let g:ctrlp_working_path_mode = 0
+" map CTRL-TAB to gt
+map <C-Tab> gt
+" map CTRL-SHIFT-TAB to gT
+map <C-S-Tab> gT
+
 " Block help key.
 noremap  <F1> :checktime<cr>
 inoremap <F1> <esc>:checktime<cr>" Resize splits when the window is resized
