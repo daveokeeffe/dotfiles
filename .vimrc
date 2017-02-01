@@ -93,6 +93,10 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" some useful syntastic things:
+" let g:syntastic_disabled_filetypes=['html']
+let g:syntastic_mode_map = { 'mode': 'passive' }
+nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 "sytastic end
 
 " let NERDTree show dotfiles
