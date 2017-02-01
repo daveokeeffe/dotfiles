@@ -47,7 +47,7 @@ set hidden
 set wildmenu
 set showcmd
 set hlsearch
-set ignorecase
+" set ignorecase
 set smartcase
 set backspace=indent,eol,start
 set autoindent
