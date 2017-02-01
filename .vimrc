@@ -27,6 +27,7 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/vim-scripts/Rename.git'
 Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'kchmck/vim-coffee-script'
 Plugin 'altercation/vim-colors-solarized'
 call vundle#end()            " required
 filetype plugin indent on    " required
