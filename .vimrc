@@ -28,6 +28,7 @@ Plugin 'wesq3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'altercation/vim-colors-solarized'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -38,7 +39,7 @@ set directory=~/.vim/swap//
 syntax enable
 "set background=dark
 let base16colorspace=256        " Access colors present in 256 colorspace
-set guifont=Inconsolata\ for\ Powerline:h14
+set guifont=Inconsolata\ for\ Powerline:h12
 set linespace=3
 set nowrap
 set noswapfile
@@ -134,4 +135,7 @@ nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(st
 
 " make use of the PrettyXML plugin
 map <leader>xt <Esc>:PrettyXML<CR>
+
+" set-up the missing ToggleBG definition for Solarized
+call togglebg#map("")
 

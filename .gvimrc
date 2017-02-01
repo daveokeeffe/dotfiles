@@ -1,3 +1,3 @@
 
-colorscheme base16-materia
+colorscheme solarized
 set noballooneval "remove hover from vim-ruby
