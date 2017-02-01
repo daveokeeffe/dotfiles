@@ -145,6 +145,10 @@ nnoremap <leader>pj :%!python -m json.tool<cr>
 " set-up the missing ToggleBG definition for Solarized
 call togglebg#map("")
 
+" display the tabline at all times
+set showtabline=2
+set guioptions-=e
+
 " Block help key.
 noremap  <F1> :checktime<cr>
 inoremap <F1> <esc>:checktime<cr>" Resize splits when the window is resized
