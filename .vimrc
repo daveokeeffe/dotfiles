@@ -139,3 +139,7 @@ map <leader>xt <Esc>:PrettyXML<CR>
 " set-up the missing ToggleBG definition for Solarized
 call togglebg#map("")
 
+" Block help key.
+noremap  <F1> :checktime<cr>
+inoremap <F1> <esc>:checktime<cr>" Resize splits when the window is resized
+
