@@ -155,9 +155,6 @@ map <C-Tab> gt
 " map CTRL-SHIFT-TAB to gT
 map <C-S-Tab> gT
 
-" set-up the missing ToggleBG definition for Solarized
-call togglebg#map("")
-
 " disable the highlighting of matching paretheses by blocking the future
 " loading of MatchParen plugin by something, possibly MatchIt
 let loaded_matchparen = 1
