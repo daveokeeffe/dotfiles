@@ -44,7 +44,7 @@ set linespace=3
 set nowrap
 set noswapfile
 set hidden
-set wildmenu
+" set wildmenu
 set showcmd
 set hlsearch
 " set ignorecase
