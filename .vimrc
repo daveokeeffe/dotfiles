@@ -29,6 +29,7 @@ Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'lfv89/vim-interestingwords' " word highlighting
 call vundle#end()            " required
 filetype plugin indent on    " required
 
@@ -163,3 +164,8 @@ let loaded_matchparen = 1
 noremap  <F1> :checktime<cr>
 inoremap <F1> <esc>:checktime<cr>" Resize splits when the window is resized
 
+" lfv89/vim-interestingwords config
+nnoremap <silent> <leader>k :call InterestingWords('n')<cr>
+nnoremap <silent> <leader>K :call UncolorAllWords()<cr>
+nnoremap <silent> n :call WordNavigation('forward')<cr>
+nnoremap <silent> N :call WordNavigation('backward')<cr>
