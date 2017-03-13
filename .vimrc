@@ -165,6 +165,17 @@ let loaded_matchparen = 1
 noremap  <F1> :checktime<cr>
 inoremap <F1> <esc>:checktime<cr>" Resize splits when the window is resized
 
+" CMD+[num] to jump to a particular tab
+map <D-1> 1gt
+map <D-2> 2gt
+map <D-3> 3gt
+map <D-4> 4gt
+map <D-5> 5gt
+map <D-6> 6gt
+map <D-7> 7gt
+map <D-8> 8gt
+map <D-9> 9gt
+
 " lfv89/vim-interestingwords config
 nnoremap <silent> <leader>k :call InterestingWords('n')<cr>
 nnoremap <silent> <leader>K :call UncolorAllWords()<cr>
