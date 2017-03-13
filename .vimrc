@@ -30,6 +30,7 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'lfv89/vim-interestingwords' " word highlighting
+Plugin 'nelstrom/vim-visual-star-search'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
