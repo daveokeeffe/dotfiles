@@ -138,9 +138,9 @@ map <S-F3> :cprev <return>
 nnoremap <silent> * :let stay_star_view = winsaveview()<cr>*:call winrestview(stay_star_view)<cr>
 
 " prettify xml
-nnoremap <leader>px <Esc>:PrettyXML<CR>
+nnoremap <leader>xt <Esc>:PrettyXML<CR>
 " prettify json
-nnoremap <leader>pj :%!python -m json.tool<cr>
+nnoremap <leader>jt :%!python -m json.tool<cr>
 
 " set-up the missing ToggleBG definition for Solarized
 call togglebg#map("")
