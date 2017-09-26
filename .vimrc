@@ -180,3 +180,6 @@ nnoremap <silent> <leader>k :call InterestingWords('n')<cr>
 nnoremap <silent> <leader>K :call UncolorAllWords()<cr>
 nnoremap <silent> n :call WordNavigation('forward')<cr>
 nnoremap <silent> N :call WordNavigation('backward')<cr>
+
+" in insert mode, press Ctrl+a to 'do' the maths
+ino <C-A> <C-O>yiW<End>=<C-R>=<C-R>0<CR>
