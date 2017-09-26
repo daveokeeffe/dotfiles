@@ -105,6 +105,7 @@ nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 " let NERDTree show dotfiles
 let NERDTreeShowHidden=1
 
+let g:NERDDefaultAlign = 'left'
 
 "Note taking in Vim
 let g:notes_directories = ['~/notes/']
