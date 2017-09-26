@@ -105,9 +105,6 @@ nnoremap <C-w>E :SyntasticCheck<CR> :SyntasticToggleMode<CR>
 " let NERDTree show dotfiles
 let NERDTreeShowHidden=1
 
-" highlight trailing spaces in annoying red
-highlight ExtraWhitespace ctermbg=1 guibg=red
-match ExtraWhitespace /\s\+$/
 
 "Note taking in Vim
 let g:notes_directories = ['~/notes/']
