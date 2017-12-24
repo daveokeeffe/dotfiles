@@ -42,7 +42,7 @@ set directory=~/.vim/swap//
 syntax enable
 "set background=dark
 let base16colorspace=256        " Access colors present in 256 colorspace
-set guifont=Inconsolata\ for\ Powerline:h12
+set guifont=Inconsolata\ for\ Powerline:h14
 set linespace=3
 set nowrap
 set noswapfile
