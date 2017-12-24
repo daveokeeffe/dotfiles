@@ -20,7 +20,7 @@ Plugin 'mattn/webapi-vim' " used by gist-vim
 Plugin 'mattn/gist-vim'
 Plugin 'chriskempson/base16-vim'
 " Plugin 'xolox/vim-misc'
-Plugin 'airblade/vim-gitgutter'
+" Plugin 'airblade/vim-gitgutter' " causes problems when viewing unsaved buffers
 Plugin 'matchit.zip'
 Plugin 'wesq3/vim-windowswap'
 Plugin 'scrooloose/nerdtree'
