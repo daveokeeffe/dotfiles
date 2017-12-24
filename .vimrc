@@ -68,7 +68,7 @@ set softtabstop=2
 set expandtab
 nnoremap <esc><esc> :nohl<CR>
 nnoremap <C-g> :GitGutterLineHighlightsToggle<CR>
-set relativenumber
+" set relativenumber
 let g:airline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled = 0
 let g:airline_left_sep = ''
