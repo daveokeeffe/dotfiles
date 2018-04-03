@@ -29,7 +29,7 @@ Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'kchmck/vim-coffee-script'
 Plugin 'altercation/vim-colors-solarized'
-Plugin 'lfv89/vim-interestingwords' " word highlighting
+Plugin 'lfv89/vim-interestingwords' " word highlighting - <Leader>k, n/N, <Leader>K
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'nelstrom/vim-markdown-folding'
 call vundle#end()            " required
