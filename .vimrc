@@ -22,7 +22,7 @@ Plugin 'chriskempson/base16-vim'
 " Plugin 'xolox/vim-misc'
 " Plugin 'airblade/vim-gitgutter' " causes problems when viewing unsaved buffers
 Plugin 'matchit.zip'
-Plugin 'wesq3/vim-windowswap'
+Plugin 'wesq3/vim-windowswap' " <leader>ww to mark a cut window, <leader>ww again to paste
 Plugin 'scrooloose/nerdtree'
 Plugin 'https://github.com/vim-scripts/Rename.git'
 Plugin 'https://github.com/abrandoned/vim-prettyxml.git'
