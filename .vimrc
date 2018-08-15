@@ -88,6 +88,9 @@ set guioptions-=r
 set guioptions-=L
 set guioptions-=R
 
+colorscheme solarized
+set noballooneval "remove hover from vim-ruby
+
 "syntastic begin
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
