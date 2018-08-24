@@ -32,6 +32,8 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'lfv89/vim-interestingwords' " word highlighting - <Leader>k, n/N, <Leader>K
 Plugin 'nelstrom/vim-visual-star-search'
 Plugin 'nelstrom/vim-markdown-folding'
+Plugin 'kana/vim-textobj-user'
+Plugin 'kana/vim-textobj-line'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
